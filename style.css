@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #000; 
+    background-color: #f5f5f5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.user-icon img {
+    height: 30px;
+}
+
+main {
+    flex: 1; /* Isso faz o main ocupar o espaço restante disponível */
+    padding: 67px; /* Adicionar o preenchimento que você precisa */
+}
+
+.team-section h2,
+.crm-panel h3 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #000; 
+    font-weight: normal;
+}
+
+.team-section h3 {
+    font-size: 18px;
+    color: #000; 
+    margin-top: 20px;
+}
+
+.client-list {
+    border: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+.client-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.client-item span {
+    width: 25%;
+}
+
+/* TODOS OS COMPONENTES DO EXPORTAR */
+
+.export-options {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.export-options a {
+    margin-right: 15px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.export-options a:hover {
+    text-decoration: underline;
+}
+
+/* TODOS OS COMPONENTES DO PAINEL */
+
+.crm-panel {
+    margin-top: 40px;
+}
+
+.crm-stats {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+/* TODOS OS COMPONENTES DO FOOTER */
+
+footer {
+    background-color: #fff;
+    color: #000; 
+    border-top: 1px solid #ddd;
+    padding: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 14px;
+    color: #000; 
+}
+
+.contact-info {
+    max-width: 50%;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+    color: #000; 
+}
+
+.social-icons {
+    display: flex;
+    gap: 3px; 
+    margin: 10px 0;
+}
+
+.social-icons a img {
+    width: 24px; 
+    height: 24px; 
+}
+
+.phone {
+    font-weight: bold;
+    color: #000; 
+}
+
+address {
+    font-style: normal;
+    line-height: 1.5;
+    color: #000; 
+}
+
+.footer-links {
+    text-align: right;
+}
+
+.footer-links a {
+    color: #9933CC; 
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #666;
+}

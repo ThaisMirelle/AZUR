@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipe Azur</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo Azur">
+        </div>
+        <div class="user-icon">
+            <img src="img/user-icon.png" alt="Ícone do Usuário">
+        </div>
+    </header>
+
+    <main>
+        <section class="team-section">
+            <h2>EQUIPE AZUR</h2>
+            <h3>Clientes e Solicitações</h3>
+            <div class="client-list">
+                <div class="client-item">
+                    <span onclick="redirectToAgendamento()" style="cursor: pointer; color: black;">João Silva</span>
+                    <span>Reserva das Palmeiras</span>
+                    <span>Planta A</span>
+                    <span>Reunião</span>
+                </div>
+                <div class="client-item">
+                    <span>Fernanda Barbosa</span>
+                    <span>Reserva das Palmeiras</span>
+                    <span>Planta B</span>
+                    <span>Reunião</span>
+                </div>
+                <div class="client-item">
+                    <span>Bruno Silva</span>
+                    <span>Reserva das Palmeiras</span>
+                    <span>Planta A</span>
+                    <span>Reunião</span>
+                </div>
+                <div class="client-item">
+                    <span>Pedro Carvalho</span>
+                    <span>Reserva das Palmeiras</span>
+                    <span>Planta A</span>
+                    <span>Reunião</span>
+                </div>
+                <div class="client-item">
+                    <span>Renata Santos</span>
+                    <span>Reserva das Palmeiras</span>
+                    <span>Planta B</span>
+                    <span>Reunião</span>
+                </div>
+            </div>
+            <div class="export-options">
+                <a href="#">exportar como .csv</a>
+                <a href="#">exportar como .pdf</a>
+            </div>
+        </section>
+
+        <section class="crm-panel">
+            <h3>Painel de CRM</h3>
+            <div class="crm-stats">
+                <p>Taxa de conversão do último mês:</p>
+                <p>Taxa de evasão:</p>
+                <p>Cliques por empreendimento:</p>
+                <p>Abrir Dashboard Online</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="contact-info">
+                <div class="social-icons">
+                    <a href="#"><img src="img/facebook-icon.png" alt="Facebook"></a>
+                    <a href="#"><img src="img/instagram-icon.png" alt="Instagram"></a>
+                    <a href="#"><img src="img/linkedin-icon.png" alt="LinkedIn"></a>
+                </div>
+                <p class="phone">+55 (87) 9 8168-8903</p>
+                <address>
+                    Rua Santa Luzia, 36, Sala 102<br>
+                    Centro, Petrolina - PE, 56334-000
+                </address>
+            </div>
+
+            <div class="footer-links">
+                <a href="#">Política de Privacidade</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Azur Development - Copyright 2024 © Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script>
+    function redirectToAgendamento() {
+        window.location.href = 'agendamento.html';
+    }
+    </script>
+</body>
+</html>
